@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					D2564C041DE072980008A044 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
 						ProvisioningStyle = Automatic;
 					};
 					D2564C181DE072990008A044 = {
@@ -414,7 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
 				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iphone.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +430,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
 				INFOPLIST_FILE = WebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iphone.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +514,7 @@
 				D2564C2F1DE072990008A044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2564C301DE072990008A044 /* Build configuration list for PBXNativeTarget "WebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				D2564C321DE072990008A044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2564C331DE072990008A044 /* Build configuration list for PBXNativeTarget "WebViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				D2564C351DE072990008A044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
