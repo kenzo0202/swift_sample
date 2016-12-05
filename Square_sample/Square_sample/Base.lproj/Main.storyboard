@@ -20,6 +20,21 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s3c-xB-uSb">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="アポロ" image="music" id="tPs-Qd-CiK">
+                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="1"/>
+                                    </tabBarItem>
+                                    <tabBarItem title="コミュニティ" image="search" id="zly-f5-W1C"/>
+                                    <tabBarItem title="チャット" image="comment" id="eHO-ns-1ex"/>
+                                    <tabBarItem title="プロフィール" image="human" id="MJt-kC-ZzS"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
@@ -27,4 +42,10 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="comment" width="32" height="32"/>
+        <image name="human" width="32" height="32"/>
+        <image name="music" width="32" height="32"/>
+        <image name="search" width="32" height="32"/>
+    </resources>
 </document>
