@@ -73,6 +73,7 @@ static NSSet *RNCachingSupportedSchemes;
     });
         
     [self setSupportedSchemes:[NSSet setWithObject:@"http"]];
+    [self setSupportedSchemes:[NSSet setWithObject:@"https"]];
   }
 }
 

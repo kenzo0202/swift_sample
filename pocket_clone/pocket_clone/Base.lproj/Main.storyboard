@@ -31,7 +31,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="112-Xf-VmB"/>
                     <connections>
-                        <outlet property="webVIew" destination="bWk-H3-Vjm" id="N1b-U1-1TU"/>
+                        <outlet property="webView" destination="bWk-H3-Vjm" id="ALF-hU-PKx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,20 +83,20 @@
                                 <rect key="frame" x="16" y="-1" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Clear" image="done.png"/>
+                                <connections>
+                                    <action selector="Add:" destination="hBs-w9-Eu1" eventType="touchUpInside" id="fBX-mr-YjQ"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <action selector="Add:" destination="hBs-w9-Eu1" id="nXz-oq-cTH"/>
-                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="yTE-3D-sLt">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5bz-XI-jcy">
                                 <rect key="frame" x="309" y="-3" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="search.png"/>
+                                <connections>
+                                    <action selector="search:" destination="hBs-w9-Eu1" eventType="touchUpInside" id="R4d-re-RaO"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <action selector="search:" destination="hBs-w9-Eu1" id="aFD-gZ-595"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>

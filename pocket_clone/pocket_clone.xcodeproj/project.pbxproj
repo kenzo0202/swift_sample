@@ -20,6 +20,7 @@
 		D231280E1DFEDE0B00F7CC3C /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231280D1DFEDE0B00F7CC3C /* ListTableViewController.swift */; };
 		D23128111DFEE98B00F7CC3C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D231280F1DFEE98A00F7CC3C /* search.png */; };
 		D23128121DFEE98B00F7CC3C /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = D23128101DFEE98B00F7CC3C /* done.png */; };
+		D23128161DFF876C00F7CC3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23128151DFF876C00F7CC3C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,6 @@
 		D23127F11DFEDBD700F7CC3C /* pocket_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocket_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23127F51DFEDBD700F7CC3C /* pocket_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_cloneUITests.swift; sourceTree = "<group>"; };
 		D23127F71DFEDBD700F7CC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D23128031DFEDD3700F7CC3C /* pocket_clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pocket_clone-Bridging-Header.h"; sourceTree = "<group>"; };
 		D23128041DFEDD3800F7CC3C /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
 		D23128051DFEDD3800F7CC3C /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
 		D23128061DFEDD3800F7CC3C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -63,6 +63,8 @@
 		D231280D1DFEDE0B00F7CC3C /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		D231280F1DFEE98A00F7CC3C /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		D23128101DFEE98B00F7CC3C /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		D23128131DFF857500F7CC3C /* pocket_clone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pocket_clone-Bridging-Header.h"; sourceTree = "<group>"; };
+		D23128151DFF876C00F7CC3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23128161DFF876C00F7CC3C /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 				D23127E91DFEDBD700F7CC3C /* pocket_cloneTests */,
 				D23127F41DFEDBD700F7CC3C /* pocket_cloneUITests */,
 				D23127D31DFEDBD700F7CC3C /* Products */,
+				D23128141DFF876C00F7CC3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,16 +123,16 @@
 				D23128071DFEDD3800F7CC3C /* Reachability.m */,
 				D23128081DFEDD3800F7CC3C /* RNCachingURLProtocol.h */,
 				D23128091DFEDD3800F7CC3C /* RNCachingURLProtocol.m */,
+				D231280F1DFEE98A00F7CC3C /* search.png */,
+				D23128101DFEE98B00F7CC3C /* done.png */,
+				D23128131DFF857500F7CC3C /* pocket_clone-Bridging-Header.h */,
 				D23127D51DFEDBD700F7CC3C /* AppDelegate.swift */,
 				D23127D71DFEDBD700F7CC3C /* ViewController.swift */,
 				D231280D1DFEDE0B00F7CC3C /* ListTableViewController.swift */,
 				D23127D91DFEDBD700F7CC3C /* Main.storyboard */,
 				D23127DC1DFEDBD700F7CC3C /* Assets.xcassets */,
-				D231280F1DFEE98A00F7CC3C /* search.png */,
-				D23128101DFEE98B00F7CC3C /* done.png */,
 				D23127DE1DFEDBD700F7CC3C /* LaunchScreen.storyboard */,
 				D23127E11DFEDBD700F7CC3C /* Info.plist */,
-				D23128031DFEDD3700F7CC3C /* pocket_clone-Bridging-Header.h */,
 			);
 			path = pocket_clone;
 			sourceTree = "<group>";
@@ -149,6 +153,14 @@
 				D23127F71DFEDBD700F7CC3C /* Info.plist */,
 			);
 			path = pocket_cloneUITests;
+			sourceTree = "<group>";
+		};
+		D23128141DFF876C00F7CC3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23128151DFF876C00F7CC3C /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -552,6 +564,7 @@
 				D23127FC1DFEDBD700F7CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23127FD1DFEDBD700F7CC3C /* Build configuration list for PBXNativeTarget "pocket_cloneTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +573,7 @@
 				D23127FF1DFEDBD700F7CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D23128001DFEDBD700F7CC3C /* Build configuration list for PBXNativeTarget "pocket_cloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +582,7 @@
 				D23128021DFEDBD700F7CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

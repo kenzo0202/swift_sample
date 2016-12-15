@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "pocket_clone/ViewController.swift"
-            timestampString = "503248180.795419"
+            filePath = "Notification/ViewController.swift"
+            timestampString = "503505303.379065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "pushnotification()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

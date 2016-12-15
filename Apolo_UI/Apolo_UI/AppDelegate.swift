@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  pocket_clone
+//  Apolo_UI
 //
-//  Created by 岡野健三 on 2016/12/12.
+//  Created by 岡野健三 on 2016/12/13.
 //  Copyright © 2016年 岡野健三. All rights reserved.
 //
 
 import UIKit
-import SystemConfiguration
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,10 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        URLProtocol.registerClass(RNCachingURLProtocol.self)
-        
-        
+        // Override point for customization after application launch.
         return true
     }
 

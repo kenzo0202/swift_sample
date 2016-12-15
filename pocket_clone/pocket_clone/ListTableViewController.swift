@@ -67,13 +67,11 @@ class ListTableViewController: UITableViewController {
         
         //貼り付ける
         self.view.addSubview(webView)
-
+        
         webView.isHidden = false
     }
     
-
     @IBAction func Add(_ sender: Any) {
-        
         webView.isHidden = true
         //webViewに表示されているタイトルを配列の中に入れる
         titleArray.append(webView.stringByEvaluatingJavaScript(from: "document.title")!)
@@ -83,11 +81,10 @@ class ListTableViewController: UITableViewController {
         
         //アプリ内に保存する
         UserDefaults.standard.set(titleArray, forKey: "titleArray")
-        UserDefaults.standard.set(titleArray, forKey: "urlArray")
-        
-        
-        webView.isHidden = false
+        UserDefaults.standard.set(urlArray, forKey: "urlArray")
+    
     }
+
     
     
     override func didReceiveMemoryWarning() {

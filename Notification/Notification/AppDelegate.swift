@@ -1,24 +1,29 @@
 //
 //  AppDelegate.swift
-//  pocket_clone
+//  Notification
 //
-//  Created by 岡野健三 on 2016/12/12.
+//  Created by 岡野健三 on 2016/12/15.
 //  Copyright © 2016年 岡野健三. All rights reserved.
 //
 
 import UIKit
-import SystemConfiguration
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        URLProtocol.registerClass(RNCachingURLProtocol.self)
-        
+        UNUserNotificationCenter.current().requestAuthorization(options:[.alert,.sound],completionHandler:{
+            granted,error in
+            
+            //エラーが出たときの箇所
+            
+        })
         
         return true
     }
