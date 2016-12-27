@@ -14,7 +14,6 @@
 		D2E798091E04CF4E00B420A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E798071E04CF4E00B420A6 /* LaunchScreen.storyboard */; };
 		D2E798141E04CF4E00B420A6 /* SwiftPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E798131E04CF4E00B420A6 /* SwiftPlayerTests.swift */; };
 		D2E7981F1E04CF4E00B420A6 /* SwiftPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7981E1E04CF4E00B420A6 /* SwiftPlayerUITests.swift */; };
-		D2E7982F1E04CFF900B420A6 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D2E7982C1E04CFF900B420A6 /* movie.mp4 */; };
 		D2E798301E04CFF900B420A6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E7982D1E04CFF900B420A6 /* play.png */; };
 		D2E798311E04CFF900B420A6 /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2E7982E1E04CFF900B420A6 /* backImage.jpg */; };
 		D2E798341E04D16600B420A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E798331E04D16600B420A6 /* AVFoundation.framework */; };
@@ -52,7 +51,6 @@
 		D2E7981A1E04CF4E00B420A6 /* SwiftPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E7981E1E04CF4E00B420A6 /* SwiftPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPlayerUITests.swift; sourceTree = "<group>"; };
 		D2E798201E04CF4E00B420A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E7982C1E04CFF900B420A6 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
 		D2E7982D1E04CFF900B420A6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		D2E7982E1E04CFF900B420A6 /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpg; sourceTree = "<group>"; };
 		D2E798331E04D16600B420A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -110,7 +108,6 @@
 		D2E797FD1E04CF4D00B420A6 /* SwiftPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				D2E7982C1E04CFF900B420A6 /* movie.mp4 */,
 				D2E7982D1E04CFF900B420A6 /* play.png */,
 				D2E7982E1E04CFF900B420A6 /* backImage.jpg */,
 				D2E797FE1E04CF4D00B420A6 /* AppDelegate.swift */,
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E798311E04CFF900B420A6 /* backImage.jpg in Resources */,
-				D2E7982F1E04CFF900B420A6 /* movie.mp4 in Resources */,
 				D2E798301E04CFF900B420A6 /* play.png in Resources */,
 				D2E798091E04CF4E00B420A6 /* LaunchScreen.storyboard in Resources */,
 				D2E798061E04CF4D00B420A6 /* Assets.xcassets in Resources */,
@@ -540,6 +536,7 @@
 				D2E798251E04CF4E00B420A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2E798261E04CF4E00B420A6 /* Build configuration list for PBXNativeTarget "SwiftPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +545,7 @@
 				D2E798281E04CF4E00B420A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2E798291E04CF4E00B420A6 /* Build configuration list for PBXNativeTarget "SwiftPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +554,7 @@
 				D2E7982B1E04CF4E00B420A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
