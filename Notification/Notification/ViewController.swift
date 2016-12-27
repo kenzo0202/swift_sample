@@ -8,11 +8,13 @@
 
 import UIKit
 import UserNotifications
+import AURCherryBlossomView
 
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
     
+    @IBOutlet weak var backView: UIView!
     @IBOutlet weak var whoTextField: UITextField!
     
     @IBOutlet weak var mainTextField: UITextField!
@@ -27,6 +29,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //テキストフィールドのイベントを取得するためにデリゲート(委譲)する
         whoTextField.delegate = self
         mainTextField.delegate = self
+        
+        let cherryBlossomView = AURCherryBlossomView(frame: self.view.bounds)
+        
+        backView.addSubview(cherryBlossomView)
+        
+        cherryBlossomView.birthRate = 4.0
+        
+        cherryBlossomView.type = .cherryBlossom
+        
+        cherryBlossomView.startBlossom()
         
         
     }

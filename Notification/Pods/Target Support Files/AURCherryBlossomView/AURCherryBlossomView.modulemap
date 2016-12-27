@@ -1,0 +1,6 @@
+framework module AURCherryBlossomView {
+  umbrella header "AURCherryBlossomView-umbrella.h"
+
+  export *
+  module * { export * }
+}

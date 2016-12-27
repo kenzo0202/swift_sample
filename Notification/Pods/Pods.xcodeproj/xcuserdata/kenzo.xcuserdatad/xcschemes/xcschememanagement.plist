@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AURCherryBlossomView-AURCherryBlossomView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AURCherryBlossomView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Notification.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NotificationTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NotificationUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1BF04F82C17EFD8E5BBB6430BFBAE046</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FAAA1471E0844B6D90AFB36BF74E809</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B57572F60ABD2194CFE86F229AB6C67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0B46D8928508B894FA12B6191274704</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E351F1658EBBB54609CCC2C2A91030FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
