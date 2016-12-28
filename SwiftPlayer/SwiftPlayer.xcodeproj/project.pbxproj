@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22E7DC01E138E2900D01E91 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D22E7DBF1E138E2900D01E91 /* movie.mp4 */; };
 		D2E797FF1E04CF4D00B420A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E797FE1E04CF4D00B420A6 /* AppDelegate.swift */; };
 		D2E798011E04CF4D00B420A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E798001E04CF4D00B420A6 /* ViewController.swift */; };
 		D2E798041E04CF4D00B420A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E798021E04CF4D00B420A6 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D22E7DBF1E138E2900D01E91 /* movie.mp4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = movie.mp4; sourceTree = "<group>"; };
 		D2E797FB1E04CF4D00B420A6 /* SwiftPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E797FE1E04CF4D00B420A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E798001E04CF4D00B420A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				D2E798051E04CF4D00B420A6 /* Assets.xcassets */,
 				D2E798071E04CF4E00B420A6 /* LaunchScreen.storyboard */,
 				D2E7980A1E04CF4E00B420A6 /* Info.plist */,
+				D22E7DBF1E138E2900D01E91 /* movie.mp4 */,
 			);
 			path = SwiftPlayer;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				D2E798311E04CFF900B420A6 /* backImage.jpg in Resources */,
 				D2E798301E04CFF900B420A6 /* play.png in Resources */,
+				D22E7DC01E138E2900D01E91 /* movie.mp4 in Resources */,
 				D2E798091E04CF4E00B420A6 /* LaunchScreen.storyboard in Resources */,
 				D2E798061E04CF4D00B420A6 /* Assets.xcassets in Resources */,
 				D2E798041E04CF4D00B420A6 /* Main.storyboard in Resources */,
