@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D201A3391E194885009BCC5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A3381E194885009BCC5E /* AppDelegate.swift */; };
+		D201A33E1E194885009BCC5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D201A33C1E194885009BCC5E /* Main.storyboard */; };
+		D201A3401E194885009BCC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D201A33F1E194885009BCC5E /* Assets.xcassets */; };
+		D201A3431E194885009BCC5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D201A3411E194885009BCC5E /* LaunchScreen.storyboard */; };
+		D201A34E1E194885009BCC5E /* keyboardCustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A34D1E194885009BCC5E /* keyboardCustomTests.swift */; };
+		D201A3591E194886009BCC5E /* keyboardCustomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A3581E194886009BCC5E /* keyboardCustomUITests.swift */; };
+		D201A36D1E1CEDE5009BCC5E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A36C1E1CEDE5009BCC5E /* KeyboardViewController.swift */; };
+		D201A3711E1CEDE5009BCC5E /* Swiftkeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D201A36A1E1CEDE5009BCC5E /* Swiftkeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D201A3821E1CEE3F009BCC5E /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3761E1CEE3F009BCC5E /* image3.jpg */; };
+		D201A3831E1CEE3F009BCC5E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3771E1CEE3F009BCC5E /* image2.jpg */; };
+		D201A3841E1CEE3F009BCC5E /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3781E1CEE3F009BCC5E /* image4.jpg */; };
+		D201A3851E1CEE3F009BCC5E /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3791E1CEE3F009BCC5E /* image5.jpg */; };
+		D201A3861E1CEE3F009BCC5E /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37A1E1CEE3F009BCC5E /* image6.jpg */; };
+		D201A3871E1CEE3F009BCC5E /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37B1E1CEE3F009BCC5E /* image7.jpg */; };
+		D201A3881E1CEE3F009BCC5E /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37C1E1CEE3F009BCC5E /* image8.jpg */; };
+		D201A3891E1CEE3F009BCC5E /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37D1E1CEE3F009BCC5E /* image9.jpg */; };
+		D201A38A1E1CEE3F009BCC5E /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37E1E1CEE3F009BCC5E /* image10.jpg */; };
+		D201A38B1E1CEE3F009BCC5E /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A37F1E1CEE3F009BCC5E /* image11.jpg */; };
+		D201A38C1E1CEE3F009BCC5E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3801E1CEE3F009BCC5E /* image1.jpg */; };
+		D201A38D1E1CEE3F009BCC5E /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3811E1CEE3F009BCC5E /* back.jpg */; };
+		D201A39A1E1CEE47009BCC5E /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A38E1E1CEE47009BCC5E /* image3.jpg */; };
+		D201A39B1E1CEE47009BCC5E /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A38F1E1CEE47009BCC5E /* image2.jpg */; };
+		D201A39C1E1CEE47009BCC5E /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3901E1CEE47009BCC5E /* image4.jpg */; };
+		D201A39D1E1CEE47009BCC5E /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3911E1CEE47009BCC5E /* image5.jpg */; };
+		D201A39E1E1CEE47009BCC5E /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3921E1CEE47009BCC5E /* image6.jpg */; };
+		D201A39F1E1CEE47009BCC5E /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3931E1CEE47009BCC5E /* image7.jpg */; };
+		D201A3A01E1CEE47009BCC5E /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3941E1CEE47009BCC5E /* image8.jpg */; };
+		D201A3A11E1CEE47009BCC5E /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3951E1CEE47009BCC5E /* image9.jpg */; };
+		D201A3A21E1CEE47009BCC5E /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3961E1CEE47009BCC5E /* image10.jpg */; };
+		D201A3A31E1CEE47009BCC5E /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3971E1CEE47009BCC5E /* image11.jpg */; };
+		D201A3A41E1CEE47009BCC5E /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3981E1CEE47009BCC5E /* image1.jpg */; };
+		D201A3A51E1CEE47009BCC5E /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D201A3991E1CEE47009BCC5E /* back.jpg */; };
+		D201A3A71E1CEF05009BCC5E /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D201A3A61E1CEF05009BCC5E /* FirstTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D201A34A1E194885009BCC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D201A32D1E194885009BCC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D201A3341E194885009BCC5E;
+			remoteInfo = keyboardCustom;
+		};
+		D201A3551E194886009BCC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D201A32D1E194885009BCC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D201A3341E194885009BCC5E;
+			remoteInfo = keyboardCustom;
+		};
+		D201A36F1E1CEDE5009BCC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D201A32D1E194885009BCC5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D201A3691E1CEDE5009BCC5E;
+			remoteInfo = Swiftkeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D201A3751E1CEDE5009BCC5E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D201A3711E1CEDE5009BCC5E /* Swiftkeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D201A3351E194885009BCC5E /* keyboardCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyboardCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D201A3381E194885009BCC5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D201A33D1E194885009BCC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D201A33F1E194885009BCC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D201A3421E194885009BCC5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D201A3441E194885009BCC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D201A3491E194885009BCC5E /* keyboardCustomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardCustomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D201A34D1E194885009BCC5E /* keyboardCustomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardCustomTests.swift; sourceTree = "<group>"; };
+		D201A34F1E194885009BCC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D201A3541E194886009BCC5E /* keyboardCustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardCustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D201A3581E194886009BCC5E /* keyboardCustomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardCustomUITests.swift; sourceTree = "<group>"; };
+		D201A35A1E194886009BCC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D201A36A1E1CEDE5009BCC5E /* Swiftkeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Swiftkeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D201A36C1E1CEDE5009BCC5E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		D201A36E1E1CEDE5009BCC5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D201A3761E1CEE3F009BCC5E /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		D201A3771E1CEE3F009BCC5E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		D201A3781E1CEE3F009BCC5E /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		D201A3791E1CEE3F009BCC5E /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		D201A37A1E1CEE3F009BCC5E /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		D201A37B1E1CEE3F009BCC5E /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		D201A37C1E1CEE3F009BCC5E /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		D201A37D1E1CEE3F009BCC5E /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		D201A37E1E1CEE3F009BCC5E /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		D201A37F1E1CEE3F009BCC5E /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		D201A3801E1CEE3F009BCC5E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		D201A3811E1CEE3F009BCC5E /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		D201A38E1E1CEE47009BCC5E /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		D201A38F1E1CEE47009BCC5E /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		D201A3901E1CEE47009BCC5E /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		D201A3911E1CEE47009BCC5E /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		D201A3921E1CEE47009BCC5E /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		D201A3931E1CEE47009BCC5E /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		D201A3941E1CEE47009BCC5E /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		D201A3951E1CEE47009BCC5E /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		D201A3961E1CEE47009BCC5E /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		D201A3971E1CEE47009BCC5E /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		D201A3981E1CEE47009BCC5E /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		D201A3991E1CEE47009BCC5E /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		D201A3A61E1CEF05009BCC5E /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D201A3321E194885009BCC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3461E194885009BCC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3511E194886009BCC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3671E1CEDE5009BCC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D201A32C1E194885009BCC5E = {
+			isa = PBXGroup;
+			children = (
+				D201A3371E194885009BCC5E /* keyboardCustom */,
+				D201A36B1E1CEDE5009BCC5E /* Swiftkeyboard */,
+				D201A34C1E194885009BCC5E /* keyboardCustomTests */,
+				D201A3571E194886009BCC5E /* keyboardCustomUITests */,
+				D201A3361E194885009BCC5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D201A3361E194885009BCC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D201A3351E194885009BCC5E /* keyboardCustom.app */,
+				D201A3491E194885009BCC5E /* keyboardCustomTests.xctest */,
+				D201A3541E194886009BCC5E /* keyboardCustomUITests.xctest */,
+				D201A36A1E1CEDE5009BCC5E /* Swiftkeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D201A3371E194885009BCC5E /* keyboardCustom */ = {
+			isa = PBXGroup;
+			children = (
+				D201A3761E1CEE3F009BCC5E /* image3.jpg */,
+				D201A3771E1CEE3F009BCC5E /* image2.jpg */,
+				D201A3781E1CEE3F009BCC5E /* image4.jpg */,
+				D201A3791E1CEE3F009BCC5E /* image5.jpg */,
+				D201A37A1E1CEE3F009BCC5E /* image6.jpg */,
+				D201A37B1E1CEE3F009BCC5E /* image7.jpg */,
+				D201A37C1E1CEE3F009BCC5E /* image8.jpg */,
+				D201A37D1E1CEE3F009BCC5E /* image9.jpg */,
+				D201A37E1E1CEE3F009BCC5E /* image10.jpg */,
+				D201A37F1E1CEE3F009BCC5E /* image11.jpg */,
+				D201A3801E1CEE3F009BCC5E /* image1.jpg */,
+				D201A3811E1CEE3F009BCC5E /* back.jpg */,
+				D201A3381E194885009BCC5E /* AppDelegate.swift */,
+				D201A3A61E1CEF05009BCC5E /* FirstTableViewController.swift */,
+				D201A33C1E194885009BCC5E /* Main.storyboard */,
+				D201A33F1E194885009BCC5E /* Assets.xcassets */,
+				D201A3411E194885009BCC5E /* LaunchScreen.storyboard */,
+				D201A3441E194885009BCC5E /* Info.plist */,
+			);
+			path = keyboardCustom;
+			sourceTree = "<group>";
+		};
+		D201A34C1E194885009BCC5E /* keyboardCustomTests */ = {
+			isa = PBXGroup;
+			children = (
+				D201A34D1E194885009BCC5E /* keyboardCustomTests.swift */,
+				D201A34F1E194885009BCC5E /* Info.plist */,
+			);
+			path = keyboardCustomTests;
+			sourceTree = "<group>";
+		};
+		D201A3571E194886009BCC5E /* keyboardCustomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D201A3581E194886009BCC5E /* keyboardCustomUITests.swift */,
+				D201A35A1E194886009BCC5E /* Info.plist */,
+			);
+			path = keyboardCustomUITests;
+			sourceTree = "<group>";
+		};
+		D201A36B1E1CEDE5009BCC5E /* Swiftkeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D201A38E1E1CEE47009BCC5E /* image3.jpg */,
+				D201A38F1E1CEE47009BCC5E /* image2.jpg */,
+				D201A3901E1CEE47009BCC5E /* image4.jpg */,
+				D201A3911E1CEE47009BCC5E /* image5.jpg */,
+				D201A3921E1CEE47009BCC5E /* image6.jpg */,
+				D201A3931E1CEE47009BCC5E /* image7.jpg */,
+				D201A3941E1CEE47009BCC5E /* image8.jpg */,
+				D201A3951E1CEE47009BCC5E /* image9.jpg */,
+				D201A3961E1CEE47009BCC5E /* image10.jpg */,
+				D201A3971E1CEE47009BCC5E /* image11.jpg */,
+				D201A3981E1CEE47009BCC5E /* image1.jpg */,
+				D201A3991E1CEE47009BCC5E /* back.jpg */,
+				D201A36C1E1CEDE5009BCC5E /* KeyboardViewController.swift */,
+				D201A36E1E1CEDE5009BCC5E /* Info.plist */,
+			);
+			path = Swiftkeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D201A3341E194885009BCC5E /* keyboardCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D201A35D1E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustom" */;
+			buildPhases = (
+				D201A3311E194885009BCC5E /* Sources */,
+				D201A3321E194885009BCC5E /* Frameworks */,
+				D201A3331E194885009BCC5E /* Resources */,
+				D201A3751E1CEDE5009BCC5E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D201A3701E1CEDE5009BCC5E /* PBXTargetDependency */,
+			);
+			name = keyboardCustom;
+			productName = keyboardCustom;
+			productReference = D201A3351E194885009BCC5E /* keyboardCustom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D201A3481E194885009BCC5E /* keyboardCustomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D201A3601E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustomTests" */;
+			buildPhases = (
+				D201A3451E194885009BCC5E /* Sources */,
+				D201A3461E194885009BCC5E /* Frameworks */,
+				D201A3471E194885009BCC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D201A34B1E194885009BCC5E /* PBXTargetDependency */,
+			);
+			name = keyboardCustomTests;
+			productName = keyboardCustomTests;
+			productReference = D201A3491E194885009BCC5E /* keyboardCustomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D201A3531E194886009BCC5E /* keyboardCustomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D201A3631E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustomUITests" */;
+			buildPhases = (
+				D201A3501E194886009BCC5E /* Sources */,
+				D201A3511E194886009BCC5E /* Frameworks */,
+				D201A3521E194886009BCC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D201A3561E194886009BCC5E /* PBXTargetDependency */,
+			);
+			name = keyboardCustomUITests;
+			productName = keyboardCustomUITests;
+			productReference = D201A3541E194886009BCC5E /* keyboardCustomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D201A3691E1CEDE5009BCC5E /* Swiftkeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D201A3721E1CEDE5009BCC5E /* Build configuration list for PBXNativeTarget "Swiftkeyboard" */;
+			buildPhases = (
+				D201A3661E1CEDE5009BCC5E /* Sources */,
+				D201A3671E1CEDE5009BCC5E /* Frameworks */,
+				D201A3681E1CEDE5009BCC5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiftkeyboard;
+			productName = Swiftkeyboard;
+			productReference = D201A36A1E1CEDE5009BCC5E /* Swiftkeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D201A32D1E194885009BCC5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "岡野健三";
+				TargetAttributes = {
+					D201A3341E194885009BCC5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+					};
+					D201A3481E194885009BCC5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D201A3341E194885009BCC5E;
+					};
+					D201A3531E194886009BCC5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D201A3341E194885009BCC5E;
+					};
+					D201A3691E1CEDE5009BCC5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D201A3301E194885009BCC5E /* Build configuration list for PBXProject "keyboardCustom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D201A32C1E194885009BCC5E;
+			productRefGroup = D201A3361E194885009BCC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D201A3341E194885009BCC5E /* keyboardCustom */,
+				D201A3481E194885009BCC5E /* keyboardCustomTests */,
+				D201A3531E194886009BCC5E /* keyboardCustomUITests */,
+				D201A3691E1CEDE5009BCC5E /* Swiftkeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D201A3331E194885009BCC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A3431E194885009BCC5E /* LaunchScreen.storyboard in Resources */,
+				D201A38D1E1CEE3F009BCC5E /* back.jpg in Resources */,
+				D201A38B1E1CEE3F009BCC5E /* image11.jpg in Resources */,
+				D201A3831E1CEE3F009BCC5E /* image2.jpg in Resources */,
+				D201A38A1E1CEE3F009BCC5E /* image10.jpg in Resources */,
+				D201A3871E1CEE3F009BCC5E /* image7.jpg in Resources */,
+				D201A3861E1CEE3F009BCC5E /* image6.jpg in Resources */,
+				D201A3841E1CEE3F009BCC5E /* image4.jpg in Resources */,
+				D201A38C1E1CEE3F009BCC5E /* image1.jpg in Resources */,
+				D201A3851E1CEE3F009BCC5E /* image5.jpg in Resources */,
+				D201A3881E1CEE3F009BCC5E /* image8.jpg in Resources */,
+				D201A3401E194885009BCC5E /* Assets.xcassets in Resources */,
+				D201A33E1E194885009BCC5E /* Main.storyboard in Resources */,
+				D201A3891E1CEE3F009BCC5E /* image9.jpg in Resources */,
+				D201A3821E1CEE3F009BCC5E /* image3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3471E194885009BCC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3521E194886009BCC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3681E1CEDE5009BCC5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A3A01E1CEE47009BCC5E /* image8.jpg in Resources */,
+				D201A39B1E1CEE47009BCC5E /* image2.jpg in Resources */,
+				D201A3A21E1CEE47009BCC5E /* image10.jpg in Resources */,
+				D201A39E1E1CEE47009BCC5E /* image6.jpg in Resources */,
+				D201A3A51E1CEE47009BCC5E /* back.jpg in Resources */,
+				D201A39D1E1CEE47009BCC5E /* image5.jpg in Resources */,
+				D201A3A41E1CEE47009BCC5E /* image1.jpg in Resources */,
+				D201A39A1E1CEE47009BCC5E /* image3.jpg in Resources */,
+				D201A3A11E1CEE47009BCC5E /* image9.jpg in Resources */,
+				D201A3A31E1CEE47009BCC5E /* image11.jpg in Resources */,
+				D201A39C1E1CEE47009BCC5E /* image4.jpg in Resources */,
+				D201A39F1E1CEE47009BCC5E /* image7.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D201A3311E194885009BCC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A3A71E1CEF05009BCC5E /* FirstTableViewController.swift in Sources */,
+				D201A3391E194885009BCC5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3451E194885009BCC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A34E1E194885009BCC5E /* keyboardCustomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3501E194886009BCC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A3591E194886009BCC5E /* keyboardCustomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D201A3661E1CEDE5009BCC5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D201A36D1E1CEDE5009BCC5E /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D201A34B1E194885009BCC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D201A3341E194885009BCC5E /* keyboardCustom */;
+			targetProxy = D201A34A1E194885009BCC5E /* PBXContainerItemProxy */;
+		};
+		D201A3561E194886009BCC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D201A3341E194885009BCC5E /* keyboardCustom */;
+			targetProxy = D201A3551E194886009BCC5E /* PBXContainerItemProxy */;
+		};
+		D201A3701E1CEDE5009BCC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D201A3691E1CEDE5009BCC5E /* Swiftkeyboard */;
+			targetProxy = D201A36F1E1CEDE5009BCC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D201A33C1E194885009BCC5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D201A33D1E194885009BCC5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D201A3411E194885009BCC5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D201A3421E194885009BCC5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D201A35B1E194886009BCC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D201A35C1E194886009BCC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D201A35E1E194886009BCC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D201A35F1E194886009BCC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D201A3611E194886009BCC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyboardCustom.app/keyboardCustom";
+			};
+			name = Debug;
+		};
+		D201A3621E194886009BCC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keyboardCustom.app/keyboardCustom";
+			};
+			name = Release;
+		};
+		D201A3641E194886009BCC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = keyboardCustom;
+			};
+			name = Debug;
+		};
+		D201A3651E194886009BCC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = keyboardCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = keyboardCustom;
+			};
+			name = Release;
+		};
+		D201A3731E1CEDE5009BCC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = Swiftkeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustom.Swiftkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D201A3741E1CEDE5009BCC5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = Swiftkeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.keyboardCustom.Swiftkeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D201A3301E194885009BCC5E /* Build configuration list for PBXProject "keyboardCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D201A35B1E194886009BCC5E /* Debug */,
+				D201A35C1E194886009BCC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D201A35D1E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D201A35E1E194886009BCC5E /* Debug */,
+				D201A35F1E194886009BCC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D201A3601E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D201A3611E194886009BCC5E /* Debug */,
+				D201A3621E194886009BCC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D201A3631E194886009BCC5E /* Build configuration list for PBXNativeTarget "keyboardCustomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D201A3641E194886009BCC5E /* Debug */,
+				D201A3651E194886009BCC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D201A3721E1CEDE5009BCC5E /* Build configuration list for PBXNativeTarget "Swiftkeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D201A3731E1CEDE5009BCC5E /* Debug */,
+				D201A3741E1CEDE5009BCC5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D201A32D1E194885009BCC5E /* Project object */;
+}
