@@ -43,13 +43,11 @@ class FirstTableViewController: UITableViewController {
     
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
-        imageView = cell.contentView.viewWithTag(1) as! UIImageView
+        imageView = tableView.viewWithTag(1) as! UIImageView
         
-        imageView.image = UIImage(named: "image1.jpg")
+        imageView.image = UIImage(named: imageArray[indexPath.row])
         
-        
-
-
+    
         return cell
     }
 

@@ -70,19 +70,19 @@ class KeyboardViewController: UIInputViewController {
         main_button2.frame = CGRect(x:  Int(self.view.frame.size.width) -  Int(self.view.frame.size.width/3), y: 0, width: Int(self.view.frame.size.width/3), height: 216/3)
         main_button2.title(for: UIControlState.normal)
         
-        self.view.addSubview(main_button)
+        self.view.addSubview(main_button2)
 
         main_button3.addTarget(self, action: #selector(yabai), for: .touchUpInside)
         main_button3.frame = CGRect(x: 0, y:   Int(self.view.frame.size.width) - 216/3, width: Int(self.view.frame.size.width/3), height: 216/3)
         main_button3.title(for: UIControlState.normal)
         
-        self.view.addSubview(main_button)
+        self.view.addSubview(main_button3)
         
         main_button4.addTarget(self, action: #selector(change), for: .touchUpInside)
         main_button4.frame = CGRect(x: Int(self.view.frame.size.width/3), y:   Int(self.view.frame.size.width/3), width: Int(self.view.frame.size.width/3), height: 216/3)
         main_button4.title(for: UIControlState.normal)
         
-        self.view.addSubview(main_button)
+        self.view.addSubview(main_button4)
 
         
         
