@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A891491E26475300B2BEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A891481E26475300B2BEDF /* AppDelegate.swift */; };
+		D2A8914B1E26475300B2BEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8914A1E26475300B2BEDF /* ViewController.swift */; };
+		D2A8914E1E26475300B2BEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A8914C1E26475300B2BEDF /* Main.storyboard */; };
+		D2A891501E26475300B2BEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A8914F1E26475300B2BEDF /* Assets.xcassets */; };
+		D2A891531E26475300B2BEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A891511E26475300B2BEDF /* LaunchScreen.storyboard */; };
+		D2A8915E1E26475300B2BEDF /* SwiftAudioChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A8915D1E26475300B2BEDF /* SwiftAudioChangeTests.swift */; };
+		D2A891691E26475300B2BEDF /* SwiftAudioChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A891681E26475300B2BEDF /* SwiftAudioChangeUITests.swift */; };
+		D2A8917D1E26482500B2BEDF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A891761E26482500B2BEDF /* 2.png */; };
+		D2A8917E1E26482500B2BEDF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A891771E26482500B2BEDF /* 3.png */; };
+		D2A8917F1E26482500B2BEDF /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A891781E26482500B2BEDF /* back.jpg */; };
+		D2A891801E26482500B2BEDF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A891791E26482500B2BEDF /* 5.png */; };
+		D2A891811E26482500B2BEDF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A8917A1E26482500B2BEDF /* 4.png */; };
+		D2A891821E26482500B2BEDF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A8917B1E26482500B2BEDF /* 6.png */; };
+		D2A891831E26482500B2BEDF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A8917C1E26482500B2BEDF /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A8915A1E26475300B2BEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A8913D1E26475300B2BEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A891441E26475300B2BEDF;
+			remoteInfo = SwiftAudioChange;
+		};
+		D2A891651E26475300B2BEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A8913D1E26475300B2BEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A891441E26475300B2BEDF;
+			remoteInfo = SwiftAudioChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2A891451E26475300B2BEDF /* SwiftAudioChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAudioChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A891481E26475300B2BEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A8914A1E26475300B2BEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2A8914D1E26475300B2BEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A8914F1E26475300B2BEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A891521E26475300B2BEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A891541E26475300B2BEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A891591E26475300B2BEDF /* SwiftAudioChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAudioChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A8915D1E26475300B2BEDF /* SwiftAudioChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAudioChangeTests.swift; sourceTree = "<group>"; };
+		D2A8915F1E26475300B2BEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A891641E26475300B2BEDF /* SwiftAudioChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAudioChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A891681E26475300B2BEDF /* SwiftAudioChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAudioChangeUITests.swift; sourceTree = "<group>"; };
+		D2A8916A1E26475300B2BEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A891761E26482500B2BEDF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D2A891771E26482500B2BEDF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D2A891781E26482500B2BEDF /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		D2A891791E26482500B2BEDF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		D2A8917A1E26482500B2BEDF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D2A8917B1E26482500B2BEDF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		D2A8917C1E26482500B2BEDF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A891421E26475300B2BEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891561E26475300B2BEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891611E26475300B2BEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A8913C1E26475300B2BEDF = {
+			isa = PBXGroup;
+			children = (
+				D2A891471E26475300B2BEDF /* SwiftAudioChange */,
+				D2A8915C1E26475300B2BEDF /* SwiftAudioChangeTests */,
+				D2A891671E26475300B2BEDF /* SwiftAudioChangeUITests */,
+				D2A891461E26475300B2BEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A891461E26475300B2BEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A891451E26475300B2BEDF /* SwiftAudioChange.app */,
+				D2A891591E26475300B2BEDF /* SwiftAudioChangeTests.xctest */,
+				D2A891641E26475300B2BEDF /* SwiftAudioChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A891471E26475300B2BEDF /* SwiftAudioChange */ = {
+			isa = PBXGroup;
+			children = (
+				D2A891761E26482500B2BEDF /* 2.png */,
+				D2A891771E26482500B2BEDF /* 3.png */,
+				D2A891781E26482500B2BEDF /* back.jpg */,
+				D2A891791E26482500B2BEDF /* 5.png */,
+				D2A8917A1E26482500B2BEDF /* 4.png */,
+				D2A8917B1E26482500B2BEDF /* 6.png */,
+				D2A8917C1E26482500B2BEDF /* 1.png */,
+				D2A891481E26475300B2BEDF /* AppDelegate.swift */,
+				D2A8914A1E26475300B2BEDF /* ViewController.swift */,
+				D2A8914C1E26475300B2BEDF /* Main.storyboard */,
+				D2A8914F1E26475300B2BEDF /* Assets.xcassets */,
+				D2A891511E26475300B2BEDF /* LaunchScreen.storyboard */,
+				D2A891541E26475300B2BEDF /* Info.plist */,
+			);
+			path = SwiftAudioChange;
+			sourceTree = "<group>";
+		};
+		D2A8915C1E26475300B2BEDF /* SwiftAudioChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A8915D1E26475300B2BEDF /* SwiftAudioChangeTests.swift */,
+				D2A8915F1E26475300B2BEDF /* Info.plist */,
+			);
+			path = SwiftAudioChangeTests;
+			sourceTree = "<group>";
+		};
+		D2A891671E26475300B2BEDF /* SwiftAudioChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A891681E26475300B2BEDF /* SwiftAudioChangeUITests.swift */,
+				D2A8916A1E26475300B2BEDF /* Info.plist */,
+			);
+			path = SwiftAudioChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A891441E26475300B2BEDF /* SwiftAudioChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A8916D1E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChange" */;
+			buildPhases = (
+				D2A891411E26475300B2BEDF /* Sources */,
+				D2A891421E26475300B2BEDF /* Frameworks */,
+				D2A891431E26475300B2BEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAudioChange;
+			productName = SwiftAudioChange;
+			productReference = D2A891451E26475300B2BEDF /* SwiftAudioChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A891581E26475300B2BEDF /* SwiftAudioChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A891701E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChangeTests" */;
+			buildPhases = (
+				D2A891551E26475300B2BEDF /* Sources */,
+				D2A891561E26475300B2BEDF /* Frameworks */,
+				D2A891571E26475300B2BEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A8915B1E26475300B2BEDF /* PBXTargetDependency */,
+			);
+			name = SwiftAudioChangeTests;
+			productName = SwiftAudioChangeTests;
+			productReference = D2A891591E26475300B2BEDF /* SwiftAudioChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A891631E26475300B2BEDF /* SwiftAudioChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A891731E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChangeUITests" */;
+			buildPhases = (
+				D2A891601E26475300B2BEDF /* Sources */,
+				D2A891611E26475300B2BEDF /* Frameworks */,
+				D2A891621E26475300B2BEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A891661E26475300B2BEDF /* PBXTargetDependency */,
+			);
+			name = SwiftAudioChangeUITests;
+			productName = SwiftAudioChangeUITests;
+			productReference = D2A891641E26475300B2BEDF /* SwiftAudioChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A8913D1E26475300B2BEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "岡野健三";
+				TargetAttributes = {
+					D2A891441E26475300B2BEDF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+					};
+					D2A891581E26475300B2BEDF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A891441E26475300B2BEDF;
+					};
+					D2A891631E26475300B2BEDF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UABN6H7C4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2A891441E26475300B2BEDF;
+					};
+				};
+			};
+			buildConfigurationList = D2A891401E26475300B2BEDF /* Build configuration list for PBXProject "SwiftAudioChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A8913C1E26475300B2BEDF;
+			productRefGroup = D2A891461E26475300B2BEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A891441E26475300B2BEDF /* SwiftAudioChange */,
+				D2A891581E26475300B2BEDF /* SwiftAudioChangeTests */,
+				D2A891631E26475300B2BEDF /* SwiftAudioChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A891431E26475300B2BEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A8917E1E26482500B2BEDF /* 3.png in Resources */,
+				D2A891531E26475300B2BEDF /* LaunchScreen.storyboard in Resources */,
+				D2A891501E26475300B2BEDF /* Assets.xcassets in Resources */,
+				D2A891821E26482500B2BEDF /* 6.png in Resources */,
+				D2A8917D1E26482500B2BEDF /* 2.png in Resources */,
+				D2A891811E26482500B2BEDF /* 4.png in Resources */,
+				D2A891801E26482500B2BEDF /* 5.png in Resources */,
+				D2A8917F1E26482500B2BEDF /* back.jpg in Resources */,
+				D2A8914E1E26475300B2BEDF /* Main.storyboard in Resources */,
+				D2A891831E26482500B2BEDF /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891571E26475300B2BEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891621E26475300B2BEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A891411E26475300B2BEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A8914B1E26475300B2BEDF /* ViewController.swift in Sources */,
+				D2A891491E26475300B2BEDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891551E26475300B2BEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A8915E1E26475300B2BEDF /* SwiftAudioChangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A891601E26475300B2BEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A891691E26475300B2BEDF /* SwiftAudioChangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A8915B1E26475300B2BEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A891441E26475300B2BEDF /* SwiftAudioChange */;
+			targetProxy = D2A8915A1E26475300B2BEDF /* PBXContainerItemProxy */;
+		};
+		D2A891661E26475300B2BEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A891441E26475300B2BEDF /* SwiftAudioChange */;
+			targetProxy = D2A891651E26475300B2BEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A8914C1E26475300B2BEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A8914D1E26475300B2BEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A891511E26475300B2BEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A891521E26475300B2BEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A8916B1E26475300B2BEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A8916C1E26475300B2BEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A8916E1E26475300B2BEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2A8916F1E26475300B2BEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D2A891711E26475300B2BEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAudioChange.app/SwiftAudioChange";
+			};
+			name = Debug;
+		};
+		D2A891721E26475300B2BEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAudioChange.app/SwiftAudioChange";
+			};
+			name = Release;
+		};
+		D2A891741E26475300B2BEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftAudioChange;
+			};
+			name = Debug;
+		};
+		D2A891751E26475300B2BEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UABN6H7C4J;
+				INFOPLIST_FILE = SwiftAudioChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.SwiftAudioChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftAudioChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A891401E26475300B2BEDF /* Build configuration list for PBXProject "SwiftAudioChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A8916B1E26475300B2BEDF /* Debug */,
+				D2A8916C1E26475300B2BEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A8916D1E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A8916E1E26475300B2BEDF /* Debug */,
+				D2A8916F1E26475300B2BEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2A891701E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A891711E26475300B2BEDF /* Debug */,
+				D2A891721E26475300B2BEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2A891731E26475300B2BEDF /* Build configuration list for PBXNativeTarget "SwiftAudioChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A891741E26475300B2BEDF /* Debug */,
+				D2A891751E26475300B2BEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A8913D1E26475300B2BEDF /* Project object */;
+}
