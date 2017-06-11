@@ -1,0 +1,6 @@
+framework module Pods_SentencesRecognizer {
+  umbrella header "Pods-SentencesRecognizer-umbrella.h"
+
+  export *
+  module * { export * }
+}

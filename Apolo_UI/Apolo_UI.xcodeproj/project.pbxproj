@@ -18,6 +18,8 @@
 		D239D4E91DFFD5FB00A9B1A6 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = D239D4E51DFFD5FB00A9B1A6 /* comment.png */; };
 		D239D4EA1DFFD5FB00A9B1A6 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = D239D4E61DFFD5FB00A9B1A6 /* search.png */; };
 		D239D4EB1DFFD5FB00A9B1A6 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = D239D4E71DFFD5FB00A9B1A6 /* music.png */; };
+		D29A76A91E5290AC00D19280 /* newhome.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A76A81E5290AC00D19280 /* newhome.png */; };
+		D29A76AB1E5290CA00D19280 /* secondhome.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A76AA1E5290CA00D19280 /* secondhome.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D239D4E51DFFD5FB00A9B1A6 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
 		D239D4E61DFFD5FB00A9B1A6 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		D239D4E71DFFD5FB00A9B1A6 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		D29A76A81E5290AC00D19280 /* newhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newhome.png; sourceTree = "<group>"; };
+		D29A76AA1E5290CA00D19280 /* secondhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondhome.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				D239D4E41DFFD5FB00A9B1A6 /* human.png */,
 				D239D4E51DFFD5FB00A9B1A6 /* comment.png */,
 				D239D4E61DFFD5FB00A9B1A6 /* search.png */,
+				D29A76A81E5290AC00D19280 /* newhome.png */,
+				D29A76AA1E5290CA00D19280 /* secondhome.png */,
 				D239D4E71DFFD5FB00A9B1A6 /* music.png */,
 				D239D4B61DFFD5A200A9B1A6 /* AppDelegate.swift */,
 				D239D4B81DFFD5A200A9B1A6 /* ViewController.swift */,
@@ -248,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D239D4C11DFFD5A200A9B1A6 /* LaunchScreen.storyboard in Resources */,
+				D29A76A91E5290AC00D19280 /* newhome.png in Resources */,
+				D29A76AB1E5290CA00D19280 /* secondhome.png in Resources */,
 				D239D4EB1DFFD5FB00A9B1A6 /* music.png in Resources */,
 				D239D4EA1DFFD5FB00A9B1A6 /* search.png in Resources */,
 				D239D4E81DFFD5FB00A9B1A6 /* human.png in Resources */,
@@ -530,6 +538,7 @@
 				D239D4DD1DFFD5A200A9B1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D239D4DE1DFFD5A200A9B1A6 /* Build configuration list for PBXNativeTarget "Apolo_UITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +547,7 @@
 				D239D4E01DFFD5A200A9B1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D239D4E11DFFD5A200A9B1A6 /* Build configuration list for PBXNativeTarget "Apolo_UIUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +556,7 @@
 				D239D4E31DFFD5A200A9B1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
